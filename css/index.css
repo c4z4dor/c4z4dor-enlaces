@@ -1,0 +1,44 @@
+@import "componentes/hero.css";
+@import "componentes/buttons.css";
+
+:root {
+  --dark-blue: #00243b;
+  --skyblue: #5dd9c1;
+  --dark: #0f1626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 0% 0%,
+    #324151 0,
+    #00243b 50%,
+    #000226 100%
+  );
+  font-family: "Poppins", "sans-serif";
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+  background-color: var(--dark);
+  border-top: 3px solid gray;
+  padding: 40px;
+}
+
+.logo p {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
